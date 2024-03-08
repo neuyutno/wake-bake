@@ -21,7 +21,7 @@
     const modalButton = document.querySelector('.about__img-button')
 
     modalButton.addEventListener('click', openModal)
-    modal.addEventListener('click', sloseModal)
+    modal.addEventListener('click', closeModal)
 
     function openModal(e) {
         e.preventDefault()
