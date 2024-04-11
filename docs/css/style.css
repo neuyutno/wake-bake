@@ -924,6 +924,7 @@
 
 /* ======================================== */
 
+
 .contact__inner {
     justify-content: center;
 }
@@ -963,8 +964,15 @@
         scroll-padding-top: 50px;
     }
 
+    .hero__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
     .hero__content {
-        min-width: none;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -974,10 +982,13 @@
     .hero__img {
         display: none;
     }
+
     .hero__img-control--mobile {
         display: flex;
-        margin: 0 0 30px;
+        margin: -20px 0 30px;
+
     }
+
 
     /* ======================================== */
 
@@ -1035,6 +1046,19 @@
 
     .contact__inner::before {
         content: none;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .testimonials__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 }
@@ -1127,11 +1151,10 @@
     /* ======================================== */
 
     .gallery__content {
+        display: flex;
         flex-direction: column;
-    }
-
-    .gallery__inner {
-        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
      /* ======================================== */
