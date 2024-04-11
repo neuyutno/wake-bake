@@ -644,7 +644,7 @@
     align-items: end;
     gap: 84px;
     position: relative;
-    max-width: 420px;
+    /* max-width: 420px; */
 }
 
 .contact__img::before {
@@ -812,7 +812,6 @@
 
 /* ======================================== */
 
-
     .footer__inner {
         justify-content: space-between;
         grid-template: repeat(2, auto) / repeat(3, auto);
@@ -850,8 +849,7 @@
 
      /* ======================================== */
 
-    
-    .contact__body {
+    .contact__inner {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -864,8 +862,8 @@
 
     .contact__img{
         display: none;
-
     }
+
 }
 
 @media (max-width: 900px) {
