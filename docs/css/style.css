@@ -1193,9 +1193,17 @@
 
 @media (max-width: 450px) {
     
+    .modal__window {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 465px;
+    }
+
     .modal__img {
-        width: 50%;
-        margin-top: -45px;
+        width: 81%;
+        margin-top: -75px;
     }
     
     .modal__title {
